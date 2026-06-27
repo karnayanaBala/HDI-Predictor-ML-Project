@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HDI Result</title>
+    <style>
+        body { font-family: Arial; background-color: #f0f8ff; text-align: center; }
+        .result { background: white; padding: 40px; 
+                  display: inline-block; border-radius: 10px;
+                  box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-top: 50px; }
+        h1 { color: #2c3e50; }
+        .score { font-size: 48px; color: #27ae60; font-weight: bold; }
+        .category { font-size: 24px; color: #2980b9; }
+        a { display: inline-block; margin-top: 20px; 
+            background: #2980b9; color: white; 
+            padding: 10px 20px; border-radius: 5px; 
+            text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="result">
+        <h1>HDI Prediction Result</h1>
+        <p class="score">{{ hdi_score }}</p>
+        <p class="category">Category: <b>{{ hdi_category }}</b></p>
+        <a href="/">Predict Another</a>
+    </div>
+</body>
+</html>
