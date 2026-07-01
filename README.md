@@ -1,4 +1,4 @@
-AI-ML-and-GEN-AI-Track-Project-Template
+HDI-Predictor-ML-Project
 
 Repository Structure
 
@@ -18,4 +18,4 @@ Repository Structure
 
 8.Project Demonstration
 
-Replace the placeholder files with your team's project deliverables.
+
